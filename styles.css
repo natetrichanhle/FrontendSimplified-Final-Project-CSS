@@ -1,0 +1,274 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%
+}
+
+nav {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.purple {
+    color: #6415FF;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 96px 0;
+    margin: 0 135px;
+}
+
+/* NAVIGATION BAR */
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__img {
+    width: 40px;
+    margin-right: 12px;
+}
+
+.logo__header {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.nav__links {
+    display: flex;
+}
+
+.nav__link {
+    color: black;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin: 0 24px;
+    padding-bottom: 4px;
+    transition-duration: 300ms;
+    border-bottom: 2px solid;
+    border-color: transparent;
+}
+
+.nav__link:hover {
+    color: #6415FF;
+    border-color: #6415FF;
+}
+
+.register {
+    margin-left: 48px;
+}
+
+.nav__link--primary {
+    color: white;
+    background-color: #6415FF;
+    padding: 12px 32px;
+    border-radius: 9999px;
+    transition: all 300ms ease;
+}
+
+.nav__link--primary:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #5012cb;
+}
+
+/* HEADER */
+
+.header__container {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.header__description {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__img {
+    width: 60%
+}
+
+.header__title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.header__para {
+    margin: 32px 0;
+    font-size: 1.125rem;
+}
+
+.input {
+    position: relative;
+    max-width: 28rem;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.email {
+    padding: 1.25rem 12rem 1.25rem 2rem;
+    border-radius: 9999px;
+    border: 2px solid #e5e7eb;
+    width: 100%;
+    font-weight: 500;
+    transition: all 300ms ease;
+}
+
+.email:hover {
+    border: 2px solid #c4c6c9
+}
+
+
+.btn {
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: #6415FF;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    border-radius: 9999px;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    line-height: 1;
+    transition: all 300ms ease;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #5012cb;
+}
+
+.trusted__customers {
+    margin-top: 80px;
+}
+
+.trusted__customers--para {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    color: #A0AEC0;
+}
+
+.trusted__customers--img {
+    margin-top: 16px;
+    padding-right: 8rem;
+    opacity: 0.5;
+}
+
+/* FEATURES */
+
+.features__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.subheading {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+}
+
+.features__description h5 {
+    margin-bottom: 16px;
+}
+
+.features__description h2 {
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+}
+
+.features__description p {
+    margin-top: 1rem;
+    font-weight: 500;
+    line-height: 1.625;
+    max-width: 36rem;
+    text-align: center;
+    font-size: 1.125rem;
+    color: #7C8BA1;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    display: flex;
+    width: calc(100% / 3);
+    padding: 32px 8px;
+    height: 100%;
+}
+
+.service__description {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0 0 16px;
+}
+
+.service__description p {
+    margin-top: 1rem;
+    font-weight: 500;
+    line-height: 2;
+    color: #7C8BA1
+}
+
+.service img {
+    width: 24px;
+}
+
+.service__img--container {
+    border: 1px solid #e8eaee;
+    border-radius: 9999px;
+    padding: 20px;
+    display: flex;
+}
+
+.title {
+    letter-spacing: 0.025em;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1;
+}
