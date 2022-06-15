@@ -272,3 +272,140 @@ li {
     font-size: 1.5rem;
     line-height: 1;
 }
+
+/* QUALITY WORK */
+
+.quality__work--container {
+    display: flex;
+    padding: 96px 0;
+    margin: 0 7px;
+}
+
+.quality__work--desc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quality__work--desc h5 {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: inherit;
+}
+
+.quality__work--desc h2 {
+    margin: 16px 0 0 0;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.25;
+    letter-spacing: 0.025em;
+}
+
+.quality__work--desc p {
+    margin: 16px 0 0 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.625;
+    color: #7C8BA1;
+}
+
+.quality__work--desc button {
+    margin: 16px 0 0 0;
+    padding: 12px 32px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    display: inline-block;
+    background-color: #6415FF;
+    color: white;
+    border-radius: 9999px;
+    width:fit-content;
+    border: none;
+    transition: all 300ms ease;
+}
+
+.quality__work--desc button:hover {
+    background-color: #5012cb;
+}
+
+.quality__work--img {
+    width: 50%;
+    border: 1px solid #e4e7eb;
+    border-radius: 4px;
+}
+
+/* STEPS */
+
+.steps__container {
+    display: flex;
+    padding: 96px 0;
+    margin: 0 7px;
+}
+
+.steps__img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.steps__instructions {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 64px;
+}
+
+.steps__instructions h5 {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: inherit;
+}
+
+.steps__instructions h2 {
+    margin: 16px 0 0 0;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.25;
+    letter-spacing: 0.025em;
+}
+
+.steps__instructions ul {
+    margin: 16px 0 0 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.625;
+    color: #7C8BA1;
+}
+
+.step__list {
+    display: flex;
+    margin: 32px 0 0 0;
+}
+
+.step__number {
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 1;
+    color: #CBD5E0;
+}
+
+.step__text {
+    margin: 0 0 0 24px;
+}
+
+.step__text h6 {
+    line-height: 1;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #243E63;
+}
+
+.step__text p {
+    margin-top: 0.75rem;
+    max-width: 20rem;
+    line-height: 2;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #718096;
+}
